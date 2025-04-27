@@ -7,6 +7,7 @@ Struggled a lot on this project! A cash register app that will return change to 
 ## Technologies Used
 - HTML
 - CSS
+- Javascript
 
 ## How to View the Project
 You can view the live project by clicking the link above.
