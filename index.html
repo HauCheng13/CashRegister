@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register Project</title>
+</head>
+<body>
+  <main>
+    <div id="main-content">
+      <header>
+        <div class="header">
+          <i class="fas fa-cash-register fa-spin fa-2x" style = "color: #FF9800"></i>
+          <h1>Item Store</h1>
+        </div>
+      </header>
+
+      <section id="product-list">
+        <h2>List of items</h2>
+        <div class="product-container"> <!--items from JS will go here !--> 
+        <div class="product">fwefwef</div>
+        <div class="product">fwefwfw</div>
+        <div class="product">fwefwfwf</div>
+        </div>  
+      </section>
+      <section id="selected-item">
+         <h3>Selected Item</h3>
+         <div id="selected-name"></div>
+         <div id="selected-price"></div>
+     </section>
+     <section id="input">
+       <div id="input-div">
+         <label  for="cash">Enter Cash:</label>
+         <input type="number" id="cash" class="user-input" value>
+         <button id="purchase-btn">Purchase</button>
+       </div>
+     </section>
+     <div id="register-change-container">
+     <section id="cash-register-container">
+       <h3><strong>Cash in drawer:</strong></h3>
+       <div id="cash-in-drawer">
+
+       </div>
+     </section>
+     <section class="change-container change">
+       <div id="change-due">
+       </div>
+     </section>
+     </div>
+     <section id="reset-container">
+       <button type="button" id="reset-btn">Reset</button>
+     </section>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
